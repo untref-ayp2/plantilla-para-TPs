@@ -1,4 +1,4 @@
-# tp1-plantilla
+# plantilla-para-TPs
 
 _Un ejemplo de cómo crear un proyecto_
 
@@ -6,7 +6,7 @@ _Un ejemplo de cómo crear un proyecto_
 
 Clonar este repo:
 
-    $ git clone https://gitlab.com/untref-ayp2-docentes/guia03--herencia-y-polimorfismo--resuelta
+    $ git clone https://gitlab.com/untref-ayp2-docentes/plantilla-para-tps
 
 
 ## Uso
@@ -33,12 +33,12 @@ Más opciones:
 El remoto por defecto ("origin"), apunta al repo de los docentes.
 
     % git remote -v
-    origin	git@gitlab.com:untref-ayp2-docentes/guia03--herencia-y-polimorfismo--parcialmente-resuelta.git (fetch)
-    origin	git@gitlab.com:untref-ayp2-docentes/guia03--herencia-y-polimorfismo--parcialmente-resuelta.git (push)
+    origin	git@gitlab.com:untref-ayp2-docentes/plantilla-para-tps (fetch)
+    origin	git@gitlab.com:untref-ayp2-docentes/plantilla-para-tps (push)
 
 El repo de los docentes sólo es modificable si se es miembro del grupo de docentes. Si se desea publicar el repositorio local en el grupo de GitLab, deben modificarse los remotos para que apunten a la versión remota del alumno, previamente creado en GitLab.
 
-    $ git remote set-url origin https://gitlab.com/mi-usuario/tp1-grupo-<NN>-<nombre_del_grupo>-turno-{mar_jue,mie_vie}
+    $ git remote set-url origin https://gitlab.com//untref-ayp2-estudiantes/tp1-grupo-<NN>-<nombre_del_grupo>-turno-{mar_jue,mie_vie}
     // NN: número del grupo de la forma "03", "04", "10" ...
     // URL de ejemplo:
     // https://gitlab.com/untref-ayp2-estudiantes/tp1-grupo-03-pachamama-turno-mar_jue
