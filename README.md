@@ -6,7 +6,12 @@ _Un ejemplo de cómo crear un proyecto_
 
 Clonar este repo:
 
-    $ git clone https://gitlab.com/untref-ayp2-docentes/plantilla-para-tps
+    # Opción A:
+    $ git clone https://github.com/untref-ayp2/plantilla-para-TPs.git
+
+    # Opción B:
+    $ git clone https://gitlab.com/untref-ayp2-docentes/plantilla-para-TPs.git
+
 
 
 ## Uso
