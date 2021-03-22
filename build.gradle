@@ -21,11 +21,11 @@ plugins {
 mainClassName = 'App'
 
 dependencies {
-    // This dependency is found on compile classpath of this component and consumers.
-    implementation 'com.google.guava:guava:23.0'
+
+    //implementation 'com.example.mylib:mylib:4.8.23'
 
     // Use JUnit test framework
-    testImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.13.2'
 }
 
 // In this section you declare where to find the dependencies of your project
